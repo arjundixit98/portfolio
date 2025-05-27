@@ -1,10 +1,12 @@
-export default function ProjectCard({ title, description, tech, github, demo }) {
+export default function ProjectCard({ title, description, tech, github, demo, detailed_description }) {
   return (
     <div className="bg-white/80 backdrop-blur-sm shadow-lg rounded-2xl p-6 hover:shadow-xl transition-all border border-gray-200 flex flex-col justify-between">
       <div>
         <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
         <p className="text-gray-600 mt-2 leading-relaxed">{description}</p>
-        <div className="flex flex-wrap gap-2 mt-4">
+
+       <p className="text-gray-400 mt-8 text-sm leading-relaxed">{detailed_description}</p>
+        <div className="flex flex-wrap gap-2 mt-8">
           {tech.map((t, idx) => (
             <span
               key={idx}

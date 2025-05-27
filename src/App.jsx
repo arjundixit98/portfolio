@@ -16,8 +16,8 @@ export default function App() {
       
       </header>
 
-      <main className="w-full mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <main className="w-[60%] mx-auto px-6 py-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-8 content-center">
           {projects.map((p, idx) => (
             <ProjectCard key={idx} {...p} />
           ))}
