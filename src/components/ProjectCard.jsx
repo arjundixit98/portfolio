@@ -31,7 +31,7 @@ export default function ProjectCard({ title, description, tech, github, demo, de
   href={demo}
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-flex items-center px-4 py-2 rounded-xl bg-indigo-600 text-white font-semibold shadow-sm hover:bg-indigo-700 transition"
+  className="inline-flex items-center px-4 py-2 rounded-xl bg-indigo-600 !text-white font-semibold shadow-sm hover:bg-indigo-700 transition"
 >
   🚀 Live Demo
 </a>
