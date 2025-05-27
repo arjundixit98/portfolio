@@ -5,7 +5,7 @@ export default function ProjectCard({ title, description, tech, github, demo, de
         <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
         <p className="text-gray-600 mt-2 leading-relaxed">{description}</p>
 
-       <p className="text-gray-400 mt-8 text-sm leading-relaxed">{detailed_description}</p>
+       <p className="text-gray-500 mt-8 text-sm leading-relaxed">{detailed_description}</p>
         <div className="flex flex-wrap gap-2 mt-8">
           {tech.map((t, idx) => (
             <span
